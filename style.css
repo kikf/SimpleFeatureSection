@@ -1,0 +1,94 @@
+:root {
+        --background: #121826;
+        --background-cards: #212936;
+        --parraphe: #9DA3AE;
+        --title: #E5E7EB;
+        --primary-logo: #FCEED8;   
+        --secundary-logo: #DEE9FC;
+        --terciary-logo: #FBE5E6;
+}
+
+body {
+        font-family: "Outfit", sans-serif;
+        background: fixed url("img/Background_image.svg");
+        background-color: var(--background);
+}
+
+header h1 {
+        color: var(--title);
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-top: 4rem;
+        text-align: center;
+}
+
+header p {
+        color: var(--parraphe);
+        font-size: 1.25rem;
+        font-weight: 400;
+        /* margin-top: 1rem; */
+        text-align: center;
+}
+
+.cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 2.5rem;
+}
+
+.cards {
+        background-color: var(--background-cards);
+        border-radius: 1.5rem;
+        padding: 1.5rem;
+        margin: 1.5rem;
+}
+
+.cards header h1{
+        color: var(--title);
+        font-size: 1.25rem;
+        font-weight: 600;
+        text-align: left;
+        margin-top: 0rem;
+}
+
+.emoji-first {
+        background-color: var(--primary-logo);
+        margin-right: 15rem;
+        border-radius: 100%;
+        padding: 0.5rem;
+        /* width: 1.8rem; */
+        /* height: 2rem; */
+}
+
+.emoji-secundary {
+        background-color: var(--secundary-logo);
+        margin-right: 15rem;
+        border-radius: 100%;
+        padding: 0.5rem;
+        /* width: 1.8rem; */
+        /* height: 2rem; */
+}
+
+.emoji-terciary {
+        background-color: var(--terciary-logo);
+        margin-right: 15rem;
+        border-radius: 100%;
+        padding: 0.5rem;
+        /* width: 1.8rem; */
+        /* height: 2rem; */
+}
+
+
+.cards p {
+        color: var(--parraphe);
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+        /* margin-top: 1rem; */
+}
+
+.cards img {
+        width: 100%;
+        border-radius: 1rem;
+}
